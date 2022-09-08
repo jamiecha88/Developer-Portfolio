@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jamie Cha</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/jamiecha88" class="link"
+          >JC</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I'm <span class="about__name">Jamie Cha</span></h1>
+        <h2 class="about__role">Software Engineer&#128105;&#8205;&#128187;</h2>
+        <p class="about__desc">
+          I specialize in building full-stack applications and software features. Everyday I work towards my dream of embedding technology into our natural environment &#127793 
+          <!--My career in computer science began by analyzing behavioral data of parasitic flies on a ping-pong ball &#127955-->
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1otTIAxT5f0BKwr8cXXLAJ4eqjO0dc94Q/view?usp=sharing">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/jamiecha88"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/jamiecha88/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Covidio</h3>
+            <p class="project__description">
+              Covidio is a full stack web application that tracks SARS-CoV-2 variants. A simple user-friendly UI makes it easy to stay up to date with viral mutations.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Express</li>
+            </ul>
+
+            <a
+              href="https://github.com/jamiecha88/covidio"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://github.com/jamiecha88/covidio#live-demo"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>InMail</h3>
+            <p class="project__description">
+              InMail is an app that allows businesses to plan and track marketing campaigns. It is an marketing manager for creating, sending, integrating, and analyzing email newsletters.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com/jamiecha88/inmail"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://github.com/jamiecha88/inmail"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Listr</h3>
+            <p class="project__description">
+              A simple web application that syncs with multiple devices and allows users to easily create lists on a single platform. Go ahead and create your personal list!
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">BootStrap</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">SQL</li>
+            </ul>
+
+            <a
+              href="https://github.com/jamiecha88/Shoppers-United"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://github.com/jamiecha88/Shoppers-United"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Open Source Contributions -->
+        <!--- <section id="open-source" class="section OSC">
+          <h2 class="section__title">Open Source Contribution</h2>
+
+          <div class="osc__grid">
+            <div class="osc">
+              <h3>Mozilla Common Voice</h3>
+              <p class="OSC__description">
+                This is the web app for Mozilla Common Voice, a platform for collecting speech donations in order to create public domain datasets for training voice recognition-related tools.
+              </p>
+              <ul class="osc__stack">
+                <li class="osc__stack-item">TypeScript</li>
+                <li class="osc__stack-item">JavaScript</li>
+                <li class="osc__stack-item">CSS</li>
+              </ul>
+
+              <a
+                href="https://github.com/common-voice/common-voice"
+                aria-label="source code"
+                class="link link--icon"
+              >
+                <i aria-hidden="true" class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://commonvoice.mozilla.org"
+                aria-label="live preview"
+                class="link link--icon"
+              >
+                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              </a>
+            </div> -->
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:chaeunhee98@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/jamiecha88"
+        class="link footer__link"
+      >
+        Created By Jamie Cha
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
